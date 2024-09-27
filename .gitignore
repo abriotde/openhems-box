@@ -1,6 +1,6 @@
 OpenHEMS-server.*.FCBak
 OpenHEMS-server.FCStd
 OpenHEMS-server/thumbnails
-OpenHEMS-server/DiffuseColor*
-OpenHEMS-server/PointColorArray*
-OpenHEMS-server/LineColorArray*
+# OpenHEMS-server/DiffuseColor*
+# OpenHEMS-server/PointColorArray*
+# OpenHEMS-server/LineColorArray*
