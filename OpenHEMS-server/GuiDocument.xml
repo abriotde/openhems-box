@@ -3,9 +3,9 @@
  FreeCAD Document, see http://www.freecad.org for more information...
 -->
 <Document SchemaVersion="1" HasExpansion="1">
-    <Expand  count="1">
-        <Expand name="Body001" count="2">
-            <Expand name="Pad001"/>
+    <Expand  count="2">
+        <Expand name="Body"/>
+        <Expand name="Body001" count="1">
             <Expand name="Pad002"/>
         </Expand>
     </Expand>
@@ -47,7 +47,7 @@
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Body" expanded="0" Extensions="True">
+        <ViewProvider name="Body" expanded="1" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
                 </Extension>
@@ -1360,7 +1360,7 @@
                 </Property>
             </Properties>
         </ViewProvider>
-        <ViewProvider name="Pad001" expanded="1" Extensions="True">
+        <ViewProvider name="Pad001" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
                 </Extension>
