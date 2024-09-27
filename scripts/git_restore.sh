@@ -8,7 +8,9 @@ zip -r ../OpenHEMS-server.FCStd thumbnails/Thumbnail.png
 zip -r ../OpenHEMS-server.FCStd DiffuseColor
 zip -r ../OpenHEMS-server.FCStd LineColorArray
 zip -r ../OpenHEMS-server.FCStd PointColorArray
-for f in `seq 1 9`; do
+nb=`ls PointColorArray*|wc -l`
+no=`expr $nb - 1`
+for f in `seq 1 $no`; do
 	zip -r ../OpenHEMS-server.FCStd LineColorArray$f
 	zip -r ../OpenHEMS-server.FCStd PointColorArray$f
 done
