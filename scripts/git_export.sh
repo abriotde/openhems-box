@@ -6,5 +6,5 @@ FCSTD_PATH="../OpenHEMS-server.FCStd"
 cd $ZIP_FOLDER
 ZIP_FOLDER=`pwd`
 echo "Path is $ZIP_FOLDER"
-unzip -n $FCSTD_PATH
+unzip $FCSTD_PATH
 
